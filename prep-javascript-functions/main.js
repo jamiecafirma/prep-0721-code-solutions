@@ -55,3 +55,10 @@ function getFullName(firstName, lastName) {
 
 const getFullNameResult = getFullName('Juan', 'Ramirez');
 console.log('getFullName Exercise: ', getFullNameResult);
+
+function cube(number) {
+  return number * number * number;
+}
+
+const cubeResult = cube(5);
+console.log('cube Exercise:', cubeResult);
