@@ -48,3 +48,10 @@ function getCircleCircumference(radius) {
 
 const getCircleCircumferenceResult = getCircleCircumference(5);
 console.log('getCircleCircumference Exercise: ', getCircleCircumferenceResult);
+
+function getFullName(firstName, lastName) {
+  return firstName + ' ' + lastName;
+}
+
+const getFullNameResult = getFullName('Juan', 'Ramirez');
+console.log('getFullName Exercise: ', getFullNameResult);
