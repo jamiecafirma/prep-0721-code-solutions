@@ -41,3 +41,10 @@ function subtractTwoNumbers(num1, num2) {
 
 const subtractTwoNumbersResult = subtractTwoNumbers(22, 7);
 console.log('subtractTwoNumbers Exercise: ', subtractTwoNumbersResult);
+
+function getCircleCircumference(radius) {
+  return 2 * radius * 3.14159265359;
+}
+
+const getCircleCircumferenceResult = getCircleCircumference(5);
+console.log('getCircleCircumference Exercise: ', getCircleCircumferenceResult);
